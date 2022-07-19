@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+#contents{
+    background-color: white;
+    /* 影をつける */
+    box-shadow: 0 5px 8px #999;
+    /* 中心に配置 */
+    margin-left: auto;
+    margin-right: auto;
+    min-height: calc(100% - 300px);
+    padding:20px ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (min-width: 480px) {
+    #contents {
+        width:calc(100% - 40px);
+    }
+}
+@media (min-width: 1000px) {
+    #contents {
+        width:920px;
+    }
+}
+@media (min-width: 1500px) {
+    #contents {
+        width:1380px;
+    }
+}

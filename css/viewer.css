@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+#info .title-wrap{
+    font-size:1.8rem;
+    text-align: center;
+    padding:50px;
+}
+#info #go-edit{
+    margin:0;
+    font-size:1rem;
+}
+#info table{
+    text-align: center;
+    color:#888;
+    width:75%;
+    margin:auto;
+    background-color: #eee;
+    padding:20px;
+    border-radius: 10px;
+}
+#info .icon{
+    font-size: 2rem;
+}
+#info a{
+    color:#888;
+}
+#view{
+    width: calc(100% - 200px);
+    padding:100px ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#survey{
+    text-align: center;
+    color:#888;
+    width:50%;
+    margin:auto;
+    background-color: #eee;
+    padding:20px;
+    border-radius: 10px;
+}
+#survey-submit{
+    font-size: 55px;
+    width:60px;
+    height:60px;
+    padding:10px;
+    margin:auto;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px #ccc;
+}
+#survey-explain{
+    padding:20px;
+}
+#bbs{
+    text-align: center;
+    color:#888;
+    width:75%;
+    margin:auto;
+    margin-top:30px;
+    background-color: #eee;
+    padding:20px;
+    border-radius: 10px;
+}
+#bbs-title{
+    font-size:2rem;
+    color:#02a695;
+    padding:10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+#bbs-empty{
+    font-size:1.5rem;
+    padding:50px ;
+}
+#bbs-form textarea{
+    width:75%;
+    height:8rem;
+}
+#bbs-submit{
+    background-color: #02a695;
+    color:white;
+    padding:10px;
+    width:70px;
+    margin:auto;
+    border-radius: 5px;
+}
+#bbs-contents{
+    text-align: left;
+}
+.bbs-item{
+    list-style-type: none;
+    padding:10px;
+}
+.bbs-user{
+    color:#02a695;
+    padding-right:10px;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+.header-wrapper{
+    width:100%;
+    display: grid;
+    grid-template-columns: 80px 1fr 300px;
+    grid-template-areas: "icon title user";
+    background: #11998e;
+    background: -webkit-linear-gradient(177deg, #11998e,#30df70 );
+    background: linear-gradient(177deg,  #11998e,#30df70 );
+    font-family: 'Ubuntu', sans-serif;
+}
+.header-wrapper .icon{
+    margin:auto;
+    margin-right: 0;
+}
+.header-wrapper .title{
+    font-size:200%;
+    margin: auto;
+    margin-left: 0;
+    color: white;
+    text-align: left;
+}
+.header-wrapper .user{
+    table-layout: fixed;
+    width:auto;
+    margin-right:0px;
+}
+.user .button{
+    background-color: #02a69500;
+    font-size: 40px;
+    border-radius: 3px;
+    height: 45px;
+    width:45px;
+    margin: auto;
+    text-align: center;
+}
+.user a{
+    color:white;
+    text-decoration: none;
+}
+.user img{
+    margin-left: auto;
+    margin-right: auto;
+    width:45px;
+    border-radius: 50%;
+    background-color: white;
+}

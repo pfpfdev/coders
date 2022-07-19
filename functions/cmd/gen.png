@@ -1,0 +1,8 @@
+./pnmtopng:
+	linux-vdso.so.1 (0x00007ffdeedd2000)
+	libpng16.so.16 => /usr/lib64/libpng16.so.16 (0x00007fbd0ecef000)
+	libz.so.1 => /lib64/libz.so.1 (0x00007fbd0ecd5000)
+	libm.so.6 => /lib64/libm.so.6 (0x00007fbd0eb9f000)
+	libc.so.6 => /lib64/libc.so.6 (0x00007fbd0e9e4000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007fbd0ed66000)
+gen.ppm:

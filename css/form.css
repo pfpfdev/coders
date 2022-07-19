@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+    background: #11998e;
+    background: -webkit-linear-gradient(177deg, #11998e,#38ef7d );
+    background: linear-gradient(177deg,  #11998e,#38ef7d );
+    height: 100%;
+}
+
+form{
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width:350px;
+    height: 350px;
+    text-align: center;
+    box-shadow: 02px 20px 50px #8888;
+    border-radius: 10px;
+}
+img{
+    padding-top: 20px;
+}
+#form-title{
+    font-family: 'Ubuntu', sans-serif;
+    color: #02a695;
+    font-size: 45px;
+    height:45px;
+}
+table{
+    padding:10px;
+    width:100%;
+}
+td{
+    padding: 10px;
+}
+input{
+    width:200px;
+    border-style: none;
+}
+.text{
+    border-bottom: solid 1px;
+}
+#submit{
+    font-size: 35px;
+    height:45px;
+    color:white;
+    background-color: #02a695;
+}
+.error-msg{
+    font-size: 1rem!important;
+    color:black!important;
+}

@@ -1,0 +1,75 @@
+/* Design */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 480px) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1500px) {
+    .cards_item {
+        width: 33.3%;
+    }
+}
+
+.card {
+  background-color: #eee;
+  width:100%;
+  padding: 40px;
+  border-radius: 0.25rem;
+  box-shadow: 0 3px 5px #888;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  text-align:center;
+}
+
+.card_title {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;    
+  font-weight: 400;
+}
+.card img {
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 5px #888;
+}
+
+.card a{
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    font-size: 1.5rem;
+}

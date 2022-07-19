@@ -1,0 +1,57 @@
+.pagecard{
+    width:80%;
+    margin:auto;
+    margin-top:30px;
+    padding:20px;
+    background-color: #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ccc;
+    color:gray;
+}
+.pagecard img{
+    margin-left: auto;
+    margin-right: auto;
+    width:75px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 5px #888;
+}
+.card-content{
+    padding: 10px;
+}
+.card-user {
+    /* padding-top:20px; */
+    padding-right:20px;
+    color:gray;
+}
+.card-title {
+    font-size:1.3rem;
+    color: black;
+    text-decoration:none;   
+}
+.card-stat{
+    padding: 10px;
+}
+.stat-item{
+    padding-left:15px;
+
+}
+.pagelist{
+    padding:50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.pagelist-title{
+    font-size:1.8rem;
+    width: calc(100%-50px);
+    padding:20px;
+    border-bottom: solid 3px #ccc;
+}
+.pagelist-empty{
+    margin: auto;
+    padding:30px;
+    font-size:1.3rem;
+    width: calc(100% - 60px);
+    color: gray;
+    text-align: center;
+}

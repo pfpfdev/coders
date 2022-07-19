@@ -1,0 +1,31 @@
+#user-info{
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding:50px;
+    background-color: #eee;
+    border-radius: 8px;
+    color:gray;    
+    text-align: center;
+}
+#user-info img {
+    margin-left: auto;
+    margin-right: auto;
+    width:150px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 5px #888;
+}
+#user-info #user-name {
+    padding:10px;
+    font-size:1.5rem;
+    color: black;
+    text-decoration:none;   
+}
+#user-info table {
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    font-size:1.1rem;
+    /* table-layout: fixed; */
+}
